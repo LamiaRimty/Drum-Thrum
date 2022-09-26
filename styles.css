@@ -16,12 +16,37 @@ h1{
 .drumSets{
     display: inline-block;
     margin: 10% auto;
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
     
 }
 footer{
     color: white;
     margin-top: 5%;
-
 }
+
+.a{
+ background-image: url("images/tom1.png");
+}
+
+.b{
+    background-image: url("images/tom2.png");
+  }
+   .c{
+    background-image: url("images/tom3.png");
+   }
+   .d{
+    background-image: url("images/tom4.png");
+   }
+   .x{
+    background-image: url("images/snare.png");
+   }
+
+   .y{
+    background-image: url("images/crash.png");
+   }
+
+   .z{
+    background-image: url("images/kick.png");
+   }
+   
