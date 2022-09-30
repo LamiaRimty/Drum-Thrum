@@ -20,6 +20,13 @@ h1{
     height: 50%;
     
 } */
+
+.pressed{
+    box-shadow: 0 3x 4px 0 #dbef3d;
+    opacity: 0.5;
+}
+
+
 footer{
     color: white;
     margin-top: 5%;

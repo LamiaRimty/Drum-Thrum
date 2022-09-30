@@ -9,13 +9,16 @@ document.querySelectorAll(".drum")[i].addEventListener("click",function()
     
     makeSound(buttonInnerHTML);
 
+    buttonAnimation(buttonInnerHTML);//single charcter corresponds to the key pressed
+
 });}
 
 
 //Detecting keyboard press
 document.addEventListener("keypress",function(event){
  makeSound(event.key);
-   
+ buttonAnimation(event.key);
+ 
 });
 
 function makeSound(key){
@@ -62,3 +65,10 @@ function makeSound(key){
     }
     }
 
+function buttonAnimation(currentKey){
+   var activeButton = document.querySelector("."+currentKey); //button active changes the style that defined in css file
+    activeButton.classList.toggle("pressed");
+    setTimeout( function(){
+        activeButton.classList.remove("pressed");
+    },100 );//0.1 sec
+}
