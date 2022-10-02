@@ -13,13 +13,19 @@ h1{
    font-family: 'Abril Fatface', cursive;
 }
 
-/* .drumSets{
+ .drum{
     display: inline-block;
-    margin: 10% auto;
-    width: 50%;
-    height: 50%;
-    
-} */
+    margin: 5% auto;
+    width: 150px;
+    height: 150px;
+    border: ridge 10px rgb(35, 32, 49);
+    font-size: 5rem;
+    font-weight: 900;
+    font-style: italic;
+    color:coral;
+    text-shadow: 3px #2b363a ;
+} 
+
 
 .pressed{
     box-shadow: 0 3x 4px 0 #dbef3d;
